@@ -1,0 +1,9 @@
+.boton1{
+    
+    background-color: rgb(180, 253, 70);
+    font-size: 15px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}

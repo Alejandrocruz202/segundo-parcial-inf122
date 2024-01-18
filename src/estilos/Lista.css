@@ -1,0 +1,59 @@
+.main{
+    display: flex;
+    
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.complete{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: black;
+    color: black;
+    align-items: center;
+    width: 400px;
+    border-radius: 5px;
+    
+    
+    
+}
+.completada{
+    background-color: white;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 192px;
+    text-align: start;
+    color: green;
+    padding-left: 4px;
+    
+
+}
+.pendiente{
+    background-color: white;
+    border-radius: 5px;
+    width: 192px;
+    color: red;
+    text-align: start;
+    padding-left: 4px;
+    
+}
+.meter{
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    margin: 10px;
+    
+    display: grid ;
+    grid-template-columns: 3fr 1fr;
+}
+input{
+    border-radius: 5px;
+    border: 0;
+
+}
